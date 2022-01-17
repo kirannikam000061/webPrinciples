@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="This is a site about cats and laying out web pages">
+  <title> Kiran Portfolio</title>
+  <link rel="shortcut icon" href="./images/star.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,200;1,700&family=Ubuntu&display=swap"
+    rel="stylesheet">
+    
+</head>
+<body class="welcome">
+  <span id="splash-overlay" class="splash"></span>
+  <span id="welcome" class="z-depth-4"></span>
+  <script type="text/javascript">
+    var mybutton = document.getElementById("myBtn");
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+        // hide and show mobile responsive menu bar starts here
+        function hideOrShow() {
+      var x = document.getElementById("theDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    // ends here
+  </script>
+  <button onclick="setTimeout(topFunction,300)" id="myBtn" title="Go to top"></button>
+  <main id="">
+    <nav class="mainNav">
+        <div class="logo-home">
+          <a href="index.html">Kiran.</a>
+        </div>
+        <div class="m-0 p-0">
+          <ul class="desk-nav">
+            <li><a href="index.html"><span class="navText">Home</span></a></li>
+            <li><a href="about.html"><span class="navText">About Me</span></a></li>
+            <li><a href="edu_tech.html"><span class="navText">Education and Technologies </span></a></li>
+            <li><a href="contact.html"><span class="navText">Contact</span></a></li>
+          </ul>
+          <div id="theDIV">
+            <ul>
+              <li><a href="index.html"><span class="navText"> <img src="./images/home.png" alt=""> Home</span></a></li>
+              <li><a href="about.html"><span class="navText"><img src="./images/user.png" alt="">About Me</span></a></li>
+              <li><a href="edu_tech.html"><span class="navText"><img src="./images/college-graduation.png" alt="">Education and Technologies </span></a></li>
+              <li><a href="contact.html"><span class="navText"><img src="./images/contact.png" alt="">Contact</span></a></li>
+            </ul>
+          </div>
+          <button class="" onclick="hideOrShow()">
+            <img src="./images/menu.png" alt="">
+          </button>
+        </div>
+      </nav>
+    <div class="header--info1">
+      <div class="container w-100">
+        <div class="row">
+          <div class="col-10">
+            <h1> <img src="./images/user_big.png" alt=""> About Me</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-page1">
+      <div class="about-main wrap">
+        <div class="about-info col-5 col-xs-10 col-sm-10">
+          <h2>About</h2>
+          <p>For more than 2 years now, design has been the central piece of my world.
+            On this fast and mind-blowing journey, I have moved over the years from being a
+            static website developer to a full-time UX/UI designer and working on web applications projects.</p>
+          <p>At the moment, this journey has brought me to Staffordshire University,
+            United Kingdom where I am doing my Masters in Computer Science (Software Engineering). Here I'm learning to become a full-stack developer with Node.js and MongoBD.</p>
+        </div>
+        <div class="about-img col-5 col-xs-10 col-sm-10 justify-content-center"><img src="appimages/man_PNG6531.png" alt=""></div>
+      </div>
+      <div class="about-exp"></div>
+    </div>
+    <div class="about-info container">
+      <div class="row">
+        <div class="info-main wrap col-xs-5 col-3">
+          <h2>02+ years</h2>
+          <p>of experience</p>
+        </div>
+        <div class="info-main wrap col-xs-5 col-3">
+          <h2>$40M+</h2>
+          <p>invested in projects I was
+            involved in</p>
+        </div>
+        <div class="info-main wrap col-xs-5 col-3">
+          <h2>Multiple</h2>
+          <p>industry awards</p>
+        </div>
+      </div>
+    </div>
+    <div class="may-about contact--me section-padding40">
+      <div class="container">
+        <div class="row">
+          <div class="col-10">
+            <div class="section-tittle2 mb-30 d-flex wrap align-items-center justify-content-between">
+              <h2 class="col-8">Do you want to know more about me?</h2>
+              <a href="./images/KIRAN_CV.pdf" class="btn white-btn f-right sm-left" download>Download CV</a>
+            </div>
+          </div>
+          <div class="col-10">
+            <div class="single-about">
+              <div class="tittle-experience w-100">
+                <h3>Contact Me</h3>
+                <form>
+                    <div class="row justify-content-between">
+                        <div class="col-3 col-xs-5 mb-20">
+                          <input type="text" placeholder="Your Name" required minlength="6" maxlength="6">
+                        </div>
+                        <div class="col-3 col-xs-5 mb-20">
+                          <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="col-3 col-xs-10 mb-20">
+                          <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="col-10">
+                          <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-10 d-flex mt-30">
+                          <button
+                            class="btn white-btn f-right sm-left w-100 d-flex justify-content-center align-items-center ">Submit</button>
+                        </div>
+                      </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-3 col-xs-5">
+              <div class="">
+                <h3>Phone Number</h3>
+                <p>+447880916467</p>
+              </div>
+            </div>
+            <div class="col-3 col-xs-5">
+              <div class="">
+                <h3>Email</h3>
+                <p>kirannikam770@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-3 col-xs-5">
+              <div class="">
+                <h3>Follow Me</h3>
+                <p class="follow--imgs">
+                  <a href="https://www.linkedin.com/in/kiran-nikam-336547160" target="_blank"><img
+                      src="./images/linkedin.png" alt=""></a>
+                  <a href="https://join.skype.com/invite/d21vFnbMgxSk" target="_blank"><img class="ml-5"
+                      src="./images/skype.png" alt=""></a>
+                  <a href="https://www.facebook.com/kiran.nikam.1232" target="_blank"><img class="ml-5"
+                      src="./images/facebook.png" alt=""></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </main>
+  
+</body>
+
+</html>

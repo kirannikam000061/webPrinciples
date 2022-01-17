@@ -1,0 +1,307 @@
+<body>
+  <script type="text/javascript">
+    var mybutton = document.getElementById("myBtn");
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+  
+  <div class="blink_me">BLINK ME</div>
+  <button onclick="setTimeout(topFunction,300)" id="myBtn" title="Go to top"></button>
+  <div id="">
+    <nav class="mainNav">
+      <div class="container">
+        <ul>
+          <li><a href="index.html"><span class="navText">Home</span></a></li>
+          <li><a href="#"><span class="navText">About Me</span></a></li>
+          <li><a href="news.html"><span class="navText">Education and Technologies </span></a></li>
+          <li><a href="#"><span class="navText">Contact</span></a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <img id="mainImg" src="appimages/catheader3.jpg" alt="Pussy cat"> -->
+    <div class="about-page1">
+      <div class="about-main">
+        <div class="about-info">
+          <h2>About</h2>
+          <p>For more than 5 years now, design has been the central piece of my world.
+            On this fast and mind-blowing journey, I have moved over the years from being a
+            visual designer to a full-time UX/UI thinker and designer.</p>
+          <p>At the moment, this journey has brought me to Cloud Academy in Mendrisio,
+            Switzerland where I am a full-time Product Designer. In this position, as with freelance,
+            I am working remotely and I have been for approximately two years.</p>
+        </div>
+        <div class="about-img"><img src="appimages/man_PNG6531.png" alt=""></div>
+      </div>
+      <div class="about-exp"></div>
+    </div>
+    <div class="about-info container">
+      <div class="row">
+        <div class="info-main col-xs-5 col-3">
+          <h2>06 years</h2>
+          <p>of experience</p>
+        </div>
+        <div class="info-main col-xs-5 col-3">
+          <h2>$40M+</h2>
+          <p>invested in projects I was
+            involved in</p>
+        </div>
+        <div class="info-main col-xs-5 col-3">
+          <h2>Multiple</h2>
+          <p>industry awards</p>
+        </div>
+      </div>
+    </div>
+    <div class="may-about section-padding40">
+      <div class="container">
+        <div class="row">
+          <div class="col-10">
+            <div class="section-tittle2 mb-30">
+              <h2>Experience</h2>
+            </div>
+          </div>
+          <div class="col-10">
+            <div class="single-about">
+              <div class="tittle-experience">
+                <h3>Angular Developer</h3>
+                <p>Feb 19 - Jul 21</p>
+              </div>
+              <div class="experience-link">
+                <a href="https://arkenea.com/">Arkenea, Inc.<img src="./images/exit-top-right (1).png" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10">
+            <div class="single-about">
+              <div class="tittle-experience">
+                <h3>Mean Stack Developer</h3>
+                <p>Feb 19 - Jul 21</p>
+              </div>
+              <div class="experience-link">
+                <a href="https://arkenea.com/" target="_blank">Arkenea, Inc.<img src="./images/exit-top-right (1).png"
+                    alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10">
+            <div class="single-about">
+              <div class="tittle-experience">
+                <h3>Web Designer</h3>
+                <p>Feb 19 - Jul 21</p>
+              </div>
+              <div class="experience-link">
+                <a href="https://arkenea.com/" target="_blank">Arkenea, Inc.<img src="./images/exit-top-right (1).png"
+                    alt=""></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10">
+            <div class="single-about">
+              <div class="tittle-experience">
+                <h3>UI Designer</h3>
+                <p>Feb 19 - Jul 21</p>
+              </div>
+              <div class="experience-link">
+                <a href="https://arkenea.com/" target="_blank">Arkenea, Inc.<img src="./images/exit-top-right (1).png"
+                    alt=""></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="section-tittle2 mb-30 pt-50">
+              <h2>Education</h2>
+            </div>
+          </div>
+          <div class="col-10">
+            <div class="single-about">
+              <div class="tittle-experience">
+                <h3>Computer Engineering</h3>
+                <p>Aug 14 - Jul 19</p>
+              </div>
+              <div class="experience-link">
+                <a href="https://www.shiksha.com/college/genba-sopanrao-moze-college-of-engineering-balewadi-pune-4431"
+                  target="_blank">Pune University<img src="./images/exit-top-right (1).png" alt=""></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10">
+            <div class="single-about">
+              <div class="tittle-experience">
+                <h3>MSC computer Science (Software Engineering)</h3>
+                <p>Sep 21 - Sep 22</p>
+              </div>
+              <div class="experience-link">
+                <a href="https://www.staffs.ac.uk/" target="_blank">Staffordshire University<img
+                    src="./images/exit-top-right (1).png" alt=""></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- experties section starts here -->
+    <div class="experties-section ">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 about-info mt-50">
+            <h2 class="experties-title">My Experties</h2>
+          </div>
+          <div class="col-10">
+            <div class="row d-flex justify-content-between mt-50 mb-50">
+              <div class="col-3">
+                <div class="tittle-experience">
+                  <h3>Front-end Design</h3>
+                  <p>Arkenea.Inc, where I am a full time Front-end developer.</p>
+                  <ul class="experties-ul">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>JQuery</li>
+                    <li>TypeScript</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="tittle-experience">
+                  <h3>Angular Developer</h3>
+                  <p>Angular projects with using below frameworks</p>
+                  <ul class="experties-ul">
+                    <li>Angular Material</li>
+                    <li>Fxlayout Angular</li>
+                    <li>Bootstarp</li>
+                    <li>Node.js</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="tittle-experience">
+                  <h3>Used Platforms</h3>
+                  <p>Supporting platforms for testing and deployments</p>
+                  <ul class="experties-ul">
+                    <li>InVision</li>
+                    <li>Jira</li>
+                    <li>GitHub</li>
+                    <li>Amazon Web Services</li>
+                    <li>PuTTY</li>
+                    <li>Robot3T</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 about-info mt-50">
+            <h2 class="experties-title">Projects</h2>
+          </div>
+          <div class="col-10 projects-details">
+            <div class="row d-flex justify-content-between mt-50 mb-50">
+              <div class="col-3 col-xs-9 mt-30">
+                <div class="tittle-experience">
+                  <h3>TFSource</h3>
+                  <a href="https://tfsource.com/" target="_blank"><img src="./images/TFsource-logo.svg" ></a>
+                </div>
+              </div>
+              <div class="col-3 col-xs-9 mt-30">
+                <div class="tittle-experience">
+                  <h3>ReferHub</h3>
+                  <a href="https://referhub.com/" target="_blank"><img src="./images/logo-referhub.svg"></a>
+                </div>
+              </div>
+              <div class="col-3 col-xs-9 mt-30">
+                <div class="tittle-experience">
+                  <h3>Feelya Ltd</h3>
+                  <a href="https://www.feelya.com/" target="_blank"><img src="./images/feelya-logo2.svg"></a>
+                </div>
+              </div>
+              <div class="col-3 col-xs-9 mt-30">
+                <div class="tittle-experience">
+                  <h3>NPHub</h3>
+                  <a href="https://nphub.com/" target="_blank"><img src="./images/ic_logo.webp"></a>
+                </div>
+              </div>
+              <div class="col-3 col-xs-9 mt-30">
+                <div class="tittle-experience">
+                  <h3>United Medical Group</h3>
+                  <a href=""><img src="./images/umg-logo.png" class="umg-img"></a>
+                  <div class="hover-projects"><div class="d-flex justify-content-center align-items-center w-100 h-100">Under development</div></div>
+                </div>
+              </div>
+              <div class="col-3 col-xs-9 mt-30">
+                <div class="tittle-experience">
+                  <h3>Tele MedHome</h3>
+                  <a href="" target="_blank"><img src="./images/27633227-0-telemed-1.png"></a>
+                  <div class="hover-projects"><div class="d-flex justify-content-center align-items-center w-100 h-100">Under development</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ends here -->
+    <div class="may-about section-padding40">
+      <div class="container">
+        <div class="row">
+          <div class="col-10">
+            <div class="section-tittle2 mb-30 d-flex justify-content-center align-items-center">
+              <h2 class="col-8">Do you want to know more about me?</h2>
+              <a href="./images/KIRAN_CV.pdf" class="btn white-btn f-right sm-left" download>Download CV</a>
+            </div>
+          </div>
+          <div class="col-10">
+            <div class="single-about">
+              <div class="tittle-experience w-100">
+                <h3>Contact Me</h3>
+                <div class="row justify-content-between">
+                  <div class="col-3">
+                    <input type="text" placeholder="Your Name">
+                  </div>
+                  <div class="col-3">
+                    <input type="text" placeholder="Email">
+                  </div>
+                  <div class="col-3">
+                    <input type="text" placeholder="Subject">
+                  </div>
+                  <div class="col-10">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                  </div>
+                  <div class="col-10 d-flex mt-30">
+                    <a href="#"
+                      class="btn white-btn f-right sm-left w-100 d-flex justify-content-center align-items-center ">Submit</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Phone Number</h3>
+            <p>+447880916467</p>
+          </div>
+          <div class="col">
+            <h3>Email</h3>
+            <p>kirannikam770@gmail.com</p>
+          </div>
+          <div class="col">
+            <h3>Follow Me</h3>
+            <p class="follow--imgs">
+              <a href="https://www.linkedin.com/in/kiran-nikam-336547160" target="_blank"><img
+                  src="./images/linkedin.png" alt=""></a>
+              <a href="https://join.skype.com/invite/d21vFnbMgxSk" target="_blank"><img class="ml-5"
+                  src="./images/skype.png" alt=""></a>
+              <a href="https://www.facebook.com/kiran.nikam.1232" target="_blank"><img class="ml-5"
+                  src="./images/facebook.png" alt=""></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>

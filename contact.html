@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="This is a site about cats and laying out web pages">
+  <title> Kiran Portfolio</title>
+  <link rel="shortcut icon" href="./images/star.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,200;1,700&family=Ubuntu&display=swap"
+    rel="stylesheet">
+    
+</head>
+<body class="welcome">
+  <span id="splash-overlay" class="splash"></span>
+  <span id="welcome" class="z-depth-4"></span>
+  <script type="text/javascript">
+    var mybutton = document.getElementById("myBtn");
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+        // hide and show mobile responsive menu bar starts here
+        function hideOrShow() {
+      var x = document.getElementById("theDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    // ends here
+  </script>
+  <button onclick="setTimeout(topFunction,300)" id="myBtn" title="Go to top"></button>
+  <main id="">
+    <nav class="mainNav">
+        <div class="logo-home">
+          <a href="index.html">Kiran.</a>
+        </div>
+        <div class="m-0 p-0">
+          <ul class="desk-nav">
+            <li><a href="index.html"><span class="navText">Home</span></a></li>
+            <li><a href="about.html"><span class="navText">About Me</span></a></li>
+            <li><a href="edu_tech.html"><span class="navText">Education and Technologies </span></a></li>
+            <li><a href="contact.html"><span class="navText">Contact</span></a></li>
+          </ul>
+          <div id="theDIV">
+            <ul>
+              <li><a href="index.html"><span class="navText"> <img src="./images/home.png" alt=""> Home</span></a></li>
+              <li><a href="about.html"><span class="navText"><img src="./images/user.png" alt="">About Me</span></a></li>
+              <li><a href="edu_tech.html"><span class="navText"><img src="./images/college-graduation.png" alt="">Education and Technologies </span></a></li>
+              <li><a href="contact.html"><span class="navText"><img src="./images/contact.png" alt="">Contact</span></a></li>
+            </ul>
+          </div>
+          <button class="" onclick="hideOrShow()">
+            <img src="./images/menu.png" alt="">
+          </button>
+        </div>
+      </nav>
+      <div class="header--info1">
+        <div class="container w-100">
+          <div class="row">
+            <div class="col-10">
+              <h1> <img src="./images/contact_big.png" alt="">Contact Me</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+          <!-- experties section starts here -->
+    <div class="experties-section bg-fff">
+        <div class="container">
+          <div class="row mt-50 mb-50">
+            <div class="col-10 about-info mt-50">
+              <div class="mapouter">
+                  <div class="gmap_canvas">
+                      <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=st42xq&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                      <a href="https://123movies-to.org">123 movies</a><br>
+                      <style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}</style>
+                      <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                      <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ends here -->
+    <div class="may-about contact--me bg-fff">
+      <div class="container">
+        <div class="row">
+          <div class="col-10">
+            <div class="single-about wrap">
+              <div class="tittle-experience">
+                <h3 class="clr-red">Contact Me</h3>
+                <div class="row wrap">
+                    <div class="w-res-60">
+                        <form >
+                            <div class="row justify-content-between">
+                                <div class="col-3 col-xs-5 mb-20">
+                                  <input class="clr-333" type="text" placeholder="Your Name" required minlength="6" maxlength="6">
+                                </div>
+                                <div class="col-3 col-xs-5 mb-20">
+                                  <input class="clr-333" type="email" placeholder="Email" required>
+                                </div>
+                                <div class="col-3 col-xs-10 mb-20">
+                                  <input class="clr-333" type="text" placeholder="Subject" required>
+                                </div>
+                                <div class="col-10">
+                                  <textarea class="clr-333" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-10 d-flex mt-30">
+                                  <button type="submit"
+                                    class="btn white-btn f-right sm-left w-100 d-flex justify-content-center align-items-center ">Submit</button>
+                                </div>
+                              </div>
+                        </form>
+                    </div>
+                    <div class="w-res-40 ml-20p">
+                        <div class="media contact-info">
+                            <img class="mr-20" src="./images/home-contact.png" alt="">
+                            <div class="media-body">
+                                <h3>Stock-on-trent, United Kingdom.</h3>
+                                <p>Leek Road, ST4 2XQ</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <img class="mr-20" src="./images/smartphone.png" alt="">
+                            <div class="media-body">
+                                <h3>+447880916467</h3>
+                                <p>Mon to Fri 9am to 6pm</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <img class="mr-20" src="./images/mail.png" alt="">
+                            <div class="media-body">
+                                <h3>kirannikam770@gmail.com</h3>
+                                <p>Send me your query anytime!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="mt-50">
+        <div class="container">
+          <div class="row">
+            <div class="col-3 col-xs-5">
+              <div class="">
+                <h3>Phone Number</h3>
+                <p>+447880916467</p>
+              </div>
+            </div>
+            <div class="col-3 col-xs-5">
+              <div class="">
+                <h3>Email</h3>
+                <p>kirannikam770@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-3 col-xs-5">
+              <div class="">
+                <h3>Follow Me</h3>
+                <p class="follow--imgs">
+                  <a href="https://www.linkedin.com/in/kiran-nikam-336547160" target="_blank"><img
+                      src="./images/linkedin.png" alt=""></a>
+                  <a href="https://join.skype.com/invite/d21vFnbMgxSk" target="_blank"><img class="ml-5"
+                      src="./images/skype.png" alt=""></a>
+                  <a href="https://www.facebook.com/kiran.nikam.1232" target="_blank"><img class="ml-5"
+                      src="./images/facebook.png" alt=""></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </main>
+  
+</body>
+
+</html>
