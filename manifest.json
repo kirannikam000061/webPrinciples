@@ -1,0 +1,18 @@
+{
+    "name": "kiran",
+    "short_name": "kiran",
+    "theme_color": "#ffefae",
+    "display": "browser",
+    "Scope": "/",
+    "background_color": "#FFF",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "./images/user_big.png",
+        "sizes": "142X142",
+        "type": "image/png"
+      }
+    
+    ],
+    "splash_pages": null
+  }

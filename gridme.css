@@ -1,6 +1,0 @@
-.container {
-    display: grid;
-    grid-template-columns: 50px auto 100px 1fr;
-    grid-template-rows: 100px 1fr max-content;
-    background-color: aqua;
-  }

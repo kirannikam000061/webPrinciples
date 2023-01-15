@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
   <meta charset="utf-8">
@@ -6,7 +6,8 @@
   <meta name="description" content="This is a site about cats and laying out web pages">
   <title> Kiran Portfolio</title>
   <link rel="shortcut icon" href="./images/star.svg">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/main.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,200;1,700&family=Ubuntu&display=swap"
@@ -16,23 +17,6 @@
 <body class="welcome">
   <span id="splash-overlay" class="splash"></span>
   <span id="welcome" class="z-depth-4"></span>
-  <script type="text/javascript">
-    var mybutton = document.getElementById("myBtn");
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-        // hide and show mobile responsive menu bar starts here
-        function hideOrShow() {
-      var x = document.getElementById("theDIV");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-    // ends here
-  </script>
   <button onclick="setTimeout(topFunction,300)" id="myBtn" title="Go to top"></button>
   <main id="">
     <nav class="mainNav">
