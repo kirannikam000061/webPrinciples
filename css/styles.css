@@ -45,9 +45,9 @@ td {
 .w-res-60{
     width: 60%;
 }
-.w-res-40{
+/* .w-res-40{
     width: 38%;
-}
+} */
 .overflow-auto{
     overflow: auto;
 }
@@ -776,6 +776,10 @@ span.navText{
 .media-body p {
     color: #999 !important;
     margin: 0 !important;
+}
+.text--decoration-none{
+    color: #333;
+    text-decoration: none;
 }
 @media (min-width:320px) and (max-width:767px){
     .ml-20p{
